@@ -9,21 +9,44 @@
   <!-- Prefetch DNS for external assets (CDN-hosted libraries + plugins, font-embedding, social widgets, etc). -->
   <link rel="dns-prefetch" href="//www.google-analytics.com">
   <link rel="dns-prefetch" href="//ajax.googleapis.com">
+
+  <!-- Preconnect DNS for external assets (CDN-hosted libraries + plugins, font-embedding, social widgets, etc). -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
   <title>Document Title</title>
 
-  <meta name="description" content="">
-  <link rel="canonical" href="">
+  <!-- SEO Tags  : BEGIN -->
+  <meta property="og:type" content="article" />
+
+  <meta property="og:locale" content="en_GB" />
+
+  <meta property="og:image" content="banner.png" />  
+
+  <meta property="og:title" content="How to Become an SEO Expert (8 Steps)" />
+
+  <meta name="description" content="Your description goes here">
+  <meta property="og:description" content="Get from SEO newbie to SEO pro in 8 simple steps." />
+
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+
+  <meta name="author" content="">
   <link rel="author" href=" -- URL of website, social media profile, etc. -- ">
   <link type="text/plain" rel="author" href="humans.txt">
 
+  <link rel="canonical" href="">
+  <meta property="og:url" content="" />
+  <!-- SEO Tags  : END -->
+
+
   <!-- Fonts files : BEGIN -->
-  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <!-- Fonts files : END -->
+
 
   <!-- CSS files : BEGIN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="/css.css">
+  <link rel="stylesheet" href="/style.css">
   <!-- CSS files : END -->
 </head>
 <body>
@@ -60,8 +83,7 @@
 		- If the script relies upon or is relied upon by another script then use defer.
     
   -->
-  <script async src="/js/jquery.min.js"></script>
-  <script defer src="/js/your-js.js"></script>
+  <script async defer src="/app.js"></script>
   
   <!--
   	Google Analytics: change UA-XXXXX-X to be the site's ID.
